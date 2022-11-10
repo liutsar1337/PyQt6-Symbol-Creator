@@ -1,0 +1,5 @@
+build/
+dist/
+app.spec
+app.exe
+app.ipynb

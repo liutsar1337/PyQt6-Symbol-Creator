@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="Main_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,325">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetNoConstraint</enum>
+       </property>
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <item>
+                  <widget class="QLabel" name="label_affiliation">
+                   <property name="font">
+                    <font>
+                     <pointsize>14</pointsize>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Affiliation:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_affiliation">
+                   <property name="font">
+                    <font>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Friendly</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Friendly.png</normaloff>Army/Icons/Friendly.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Enemy</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Enemy.png</normaloff>Army/Icons/Enemy.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Neutral</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Neutral.png</normaloff>Army/Icons/Neutral.png</iconset>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_unit_modifier">
+                   <property name="font">
+                    <font>
+                     <pointsize>14</pointsize>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Unit modifier:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_unit_modifier">
+                   <property name="font">
+                    <font>
+                     <pointsize>13</pointsize>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>---Main Units---</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Light Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Light Infantry.png</normaloff>Army/Icons/Light Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Infantry.png</normaloff>Army/Icons/Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Motorized Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Motorized Infantry.png</normaloff>Army/Icons/Motorized Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Mechanized Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Mechanized Infantry.png</normaloff>Army/Icons/Mechanized Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Armor</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Armor.png</normaloff>Army/Icons/Armor.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>---Elite Units---</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Air Assault</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Air Assault.png</normaloff>Army/Icons/Air Assault.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Airborne</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Airborne.png</normaloff>Army/Icons/Airborne.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Naval Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Naval Infantry.png</normaloff>Army/Icons/Naval Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Mountain Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Mountain Infantry.png</normaloff>Army/Icons/Mountain Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Arctic Infantry</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Arctic Infantry.png</normaloff>Army/Icons/Arctic Infantry.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>---Artillery Units---</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Field Artillery</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Field Artillery.png</normaloff>Army/Icons/Field Artillery.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Self-Propelled Artillery</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Self-Propelled Artillery.png</normaloff>Army/Icons/Self-Propelled Artillery.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Rocket Artillery</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Rocket Artillery.png</normaloff>Army/Icons/Rocket Artillery.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Tactical Missile Force</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Tactical Missile Force.png</normaloff>Army/Icons/Tactical Missile Force.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Strategic Missile Force</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Strategic Missile Force.png</normaloff>Army/Icons/Strategic Missile Force.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>---Others---</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Security Forces</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Security Forces.png</normaloff>Army/Icons/Security Forces.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Police Forces</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Police Forces.png</normaloff>Army/Icons/Police Forces.png</iconset>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Air-Defense</string>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>Army/Icons/Air-Defense.png</normaloff>Army/Icons/Air-Defense.png</iconset>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_battle_dimension">
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Battle dimension:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="comboBox_battle_dimension">
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                  </font>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>Battalion (1,000)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Regiment (1,500)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Brigade (3,000)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Division (12,000)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Corps (36,000)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Army (108,000)</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Country:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_description">
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                  </font>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_Create">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Create</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
